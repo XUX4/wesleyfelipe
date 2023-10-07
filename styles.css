@@ -1,0 +1,95 @@
+/* Defina o estilo geral para o corpo do site */
+body {
+    background-color: black; /* Fundo preto */
+    color: rgb(244, 241, 245); /* Texto branco */
+    font-family: Arial, sans-serif; /* Tipo de fonte */
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+    background-color: rgb(255, 0, 0); /* Fundo vermelho */
+    padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilo para a lista de navegação (menu) */
+nav ul {
+    list-style-type: none; /* Remova os marcadores de lista */
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Disponha os itens da lista horizontalmente */
+    margin-right: 170px; /* Espaçamento entre os itens */
+}
+
+nav a {
+    text-decoration: none; /* Remova sublinhado de links */
+    color: white; /* Cor do texto branco */
+}
+
+/* Estilo para as imagens */
+img {
+    max-width: 100%; /* Garanta que as imagens não ultrapassem a largura do contêiner pai */
+    height: auto; /* Mantenha a proporção da imagem */
+}
+
+/* Estilo para o rodapé (footer) */
+footer {
+    background-color: red; /* Fundo vermelho */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centralize o texto */
+}
+/* Estilo para as imagens */
+.imagem1,
+.imagem2,
+.imagem3,
+.imagem4 {
+    max-width: 30%; /* Define o tamanho máximo das imagens como 30% da largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    display: inline-block; /* Exibe as imagens em linha uma à direita da outra */
+    margin-right: 0px; /* Adiciona espaço à direita de cada imagem */
+}
+/* styles.css */
+
+body {
+    background-image: url('seu\ fundo.png'); /* Substitua 'seu-fundo.jpg' pelo caminho ou URL da sua imagem de fundo */
+    background-size: cover; /* Para cobrir todo o corpo */
+    background-repeat: no-repeat; /* Para evitar repetição da imagem */
+    background-attachment: fixed; /* Para manter o fundo fixo enquanto a página rola */
+    /* Outros estilos, como cores de texto, fundo, etc. */
+    color: #fff; /* Cor do texto */
+}
+.nav-menu {
+    width: 551px; /* Defina o tamanho desejado aqui */
+    /* Outros estilos comuns para os elementos nav aqui */
+}
+.nav-menu ul {
+    margin-left: 80px; /* Ajuste o valor conforme necessário */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none; /* Remova sublinhado de link */
+    border: none; /* Remova a borda padrão do link */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Mude o cursor ao passar o mouse */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão quando o mouse passa por cima */
+}
+.button {
+    background-color: black;
+    color: white; /* Define a cor do texto para branco para melhor legibilidade */
+    /* Outros estilos, como padding, margin, font-size, etc., podem ser adicionados aqui */
+}
+p {
+    background-color: rgb(16, 66, 202); /* Define a cor de fundo como preto */
+    color: rgb(0, 0, 0); /* Define a cor do texto como branca para melhor legibilidade */
+    padding: 2px; /* Adiciona algum espaçamento interno para destacar o texto */
+    text-align: justify;
+}
+
+
